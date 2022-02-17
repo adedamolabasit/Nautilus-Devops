@@ -1,11 +1,11 @@
-** What is the OSI model? 
-** Explain the different layers of the OSI model.
-** What do you mean by the TCP/IP Model?
-** What do you mean by HTTP, TCP and UDP
-** What is a Firewall?
-** Explain DNS
-** Serve a simple application running on any random port (eg: 3000) via Nginx
-** Install SSL/TLS certificate in Nginx to load application over HTTPS
+** What is the OSI model? **
+** Explain the different layers of the OSI model. **
+** What do you mean by the TCP/IP Model? **
+** What do you mean by HTTP, TCP and UDP **
+** What is a Firewall? **
+** Explain DNS **
+** Serve a simple application running on any random port (eg: 3000) via Nginx **
+** Install SSL/TLS certificate in Nginx to load application over HTTPS **
 
 # OSI MODEL :
 * Open System Interconnection Model is a conceptual model that categories and standardize the different functions in a network 
