@@ -56,7 +56,7 @@
 * Defines the physical characteristics of the medium used to transfer data between device 
 * Digital bits are coverted intp electrical for wired connection or radio for wireless connection signal 
 
-## TCP?IP Model
+## TCP/IP Model
 
 
 
