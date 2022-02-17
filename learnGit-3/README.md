@@ -30,14 +30,14 @@
 ** Data from the application layer are in application format and they are being translated to a different format to be send over the network ,the presentation layer job is to translate between application and network format for example ,encryption of data as it is sent and decrytion of data as it is recieved . 
 
 ## Session Layer :
-** This layer controls dialogues (sessions) between communicating hosts
-** establishes,manages and terminates connections between the local applications (for example web browser) and the remote application (for example youtube)
+* This layer controls dialogues (sessions) between communicating hosts
+* establishes,manages and terminates connections between the local applications (for example web browser) and the remote application (for example youtube)
 
 **Ntework engineers usually work with the top 3 layers**
 **Application developers work with the top layer of the OSI model to connect their application over the network**
 
 ## Transport Layer:
-** This layer segments and reassembles data for communications between end hosts,It breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occurs .It provides host to host communication 
+* This layer segments and reassembles data for communications between end hosts,It breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occurs .It provides host to host communication 
 [DATA + L4 HEADER ]--> segment
 
 
@@ -48,13 +48,15 @@
 [DATA + L4 HEADER + L3 HEADER]--.packet
 
 ## Data-links Layer:
-**Provides node-to-node connectivity and data transfer 
-** it defines how data is formatted for transmission over a physical medium e.g UTP cables 
-** Detects and (possibly) corrects physical layer errors
+* Provides node-to-node connectivity and data transfer 
+* It defines how data is formatted for transmission over a physical medium e.g UTP cables 
+* Detects and (possibly) corrects physical layer errors
 
 ## Physical Layer:
-** Defines the physical characteristics of the medium used to transfer data between device 
-** Digital bits are coverted intp electrical for wired connection or radio for wireless connection signal 
+* Defines the physical characteristics of the medium used to transfer data between device 
+* Digital bits are coverted intp electrical for wired connection or radio for wireless connection signal 
+
+## TCP?IP Model
 
 
 
