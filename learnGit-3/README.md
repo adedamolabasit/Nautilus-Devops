@@ -48,7 +48,7 @@
 [DATA + L4 HEADER + L3 HEADER]--.packet
 
 ## Data-links Layer:
-** Provides node-to-node connectivity and data transfer 
+**Provides node-to-node connectivity and data transfer 
 ** it defines how data is formatted for transmission over a physical medium e.g UTP cables 
 ** Detects and (possibly) corrects physical layer errors
 
