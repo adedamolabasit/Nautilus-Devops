@@ -38,7 +38,23 @@
 
 ## Transport Layer:
 ** This layer segments and reassembles data for communications between end hosts,It breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if errors occurs .It provides host to host communication 
-[DATA + l4HEADER ]--> segment
+[DATA + L4 HEADER ]--> segment
+
+
+## Network Layer:
+** This layer provides connectivity between end hosts on different networks (i.e outside the LAN)
+** It provides pathh selection between source and destination
+** Routers operate at this layer
+[DATA + L4 HEADER + L3 HEADER]--.packet
+
+## Data-links Layer:
+** Provides node-to-node connectivity and data transfer 
+** it defines how data is formatted for transmission over a physical medium e.g UTP cables 
+** Detects and (possibly) corrects physical layer errors
+
+## Physical Layer:
+** Defines the physical characteristics of the medium used to transfer data between device 
+** Digital bits are coverted intp electrical for wired connection or radio for wireless connection signal 
 
 
 
